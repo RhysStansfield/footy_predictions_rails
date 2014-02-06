@@ -1,11 +1,12 @@
 source 'https://rubygems.org'
-ruby '2.1.0'
+# ruby '2.1.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
+gem 'mysql2'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -44,6 +45,8 @@ gem 'mandrill-api'
 gem 'twitter-bootstrap-rails', 
         github: 'seyhunak/twitter-bootstrap-rails',
         branch: 'bootstrap3'
+
+gem 'formtastic'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

@@ -13,9 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20140206170133) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "groups", force: true do |t|
     t.string   "name"
     t.integer  "average_points", default: 0
