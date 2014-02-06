@@ -18,3 +18,5 @@
 .DS_Store
 .env
 
+/config/database.mysql.yml
+/db/schema.mysql.rb
